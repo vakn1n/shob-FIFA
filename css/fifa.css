@@ -1,0 +1,16 @@
+.price-details {
+    font-size: 20;
+    font-weight: bold;
+    color: black;
+}
+.player-details {
+    font-size: 16;
+    font-weight: bold;
+    color: white;
+}
+.player-details-form {
+    border-radius:8px;
+    border: 2px solid gold;
+    width: 200;
+    background-color: darkgrey;
+}
