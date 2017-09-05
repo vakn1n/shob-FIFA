@@ -1,3 +1,57 @@
-<div class="jumbotron">
-<h1>ברוך הבא לעמוד הבית!</h1>
+<br>
+<div class="row">
+	
+	<div class="col-md-5 col-md-offset-1">
+		<h3 style="font-weight: bold; text-align: center">הסרטון היומי</h3>
+		<iframe width="450" height="250" src="https://www.youtube.com/embed/3Ty4064UZ_c" frameborder="0"></iframe>
+	</div>
+	
+	<div class="col-md-5 col-md-offset-1">
+		<h3 style="font-weight: bold; text-align: center">השחקן המוביל ב-TOTW</h3>
+		<center>
+			<img src="../images/avi-card.png" height="40%" width="40%">
+		</center>
+	</div>
 </div>
+
+<br><br>
+<div class="row">
+	<div id="allClock" class="col-md-5 col-md-offset-1">
+		<h3 style="font-weight: bold">הספירה לאחור - FIFA 18</h3>
+		<div id="clockdiv" style="font-family: gisha; font-weight: bold">
+		  <div>
+			<span class="seconds"></span>
+			<div class="smalltext">שניות</div>
+		  </div>
+		  <div>
+			<span class="minutes"></span>
+			<div class="smalltext">דקות</div>
+		  </div>
+		  <div>
+			<span class="hours"></span>
+			<div class="smalltext">שעות</div>
+		  </div>
+		  <div>
+			<span class="days"></span>
+			<div class="smalltext">ימים</div>
+		  </div>
+		</div>
+	</div>
+	
+	<div class="col-md-4 col-md-offset-1">
+		<h3 style="font-weight: bold; text-align: center">מלכי השערים - הליגה האיטלקית</h3>
+		<table class="table bg-info" dir="rtl" style="text-align: right; float: right" id="transferTable">
+			<thead>
+				<tr>
+					<th>שם השחקן</th>
+					<th>קבוצה</th>
+					<th>מספר שערים</th>
+				</tr>
+			</thead>
+			<tbody id="scorerTable">
+			</tbody>
+		</table>
+	</div>
+</div>
+
+<script src="../js/main.js"></script>
